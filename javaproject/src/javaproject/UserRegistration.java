@@ -38,6 +38,10 @@ public class UserRegistration {
 		System.out.println(mob);
 		regex =  "(^[0-9]{2})([\s]{1})([0-9]{10})";
 		check(mob,regex);
+		System.out.println("Password:");
+		String pass = sc.next();
+		regex =  "^[a-zA-Z0-9$&+,:;=?@#|'<>.-^*()%!]{8,}";
+		check(pass,regex);
 		
 		
 		
