@@ -40,7 +40,7 @@ public class UserRegistration {
 		check(mob,regex);
 		System.out.println("Password:");
 		String pass = sc.next();
-		regex =  "(?=.*[A-Z])[a-zA-Z0-9$&+,:;=?@#|'<>.-^*()%!]{8,}";
+		regex =  "(?=.*\\d)(?=.*[A-Z])[a-zA-Z0-9$&+,:;=?@#|'<>.-^*()%!]{8,}}";
 		check(pass,regex);
 		
 		
