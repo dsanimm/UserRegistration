@@ -28,7 +28,10 @@ public class UserRegistration {
 		System.out.println("Enter Last Name:");
 		String lname = sc.next();
 		check(lname,regex);
-		
+		System.out.println("Enter Email ID:");
+		String email = sc.next();
+		regex =  "^[A-za-z0-9]{1,}([.A-za-z0-9-+]*)[@]{1}([A-za-z0-9]{1,})([.A-Za-z]{1,})";
+		check(email,regex);
 		
 		
 		
